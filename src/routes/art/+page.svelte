@@ -1,8 +1,8 @@
 <script>
-  import bad from "$lib/imgs/TBBVizionsProducts/women/bad.png"
-  import fashion from "$lib/imgs/TBBVizionsProducts/women/fashion.png"
-  import smile from "$lib/imgs/TBBVizionsProducts/women/smile.png"
-  import terry from "$lib/imgs/TBBVizionsProducts/Commissions/terry visualizer.png"
+  import bad from "../../lib/imgs/TBBVizionsProducts/Women/bad.png"
+  import fashion from "../../lib/imgs/TBBVizionsProducts/women/fashion.png"
+  import smile from "../../lib/imgs/TBBVizionsProducts/women/smile.png"
+  import terry from "../../lib/imgs/TBBVizionsProducts/Commissions/terry visualizer.png"
 	import PricingNav from "../../lib/components/PricingNav.svelte";
 </script>
 
