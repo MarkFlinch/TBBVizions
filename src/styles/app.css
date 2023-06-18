@@ -1,0 +1,15 @@
+:root{
+  --color: color; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textgradient {
+  background: linear-gradient(0deg, rgba(255,56,2,1) 0%, rgba(131,31,5,1) 63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
