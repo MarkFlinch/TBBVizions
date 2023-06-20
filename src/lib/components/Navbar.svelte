@@ -1,5 +1,4 @@
 <script>
-    import vizions from "../imgs/TBBVizionsProducts/Self/Vizionsdrawing.png"
     export let name;
 </script>
 
@@ -7,7 +6,6 @@
   <h1 class="textgradient">{name}</h1>
 	<div>
 		<a href="/">Home</a>
-		<a href="/art">Art</a>
 		<a href="/pricing">Pricing</a>
 	</div>
 </nav>

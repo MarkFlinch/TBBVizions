@@ -1,16 +1,14 @@
 <script>
-  import bad from "../../lib/imgs/TBBVizionsProducts/Women/Bad.png"
+  import bad from "../../lib/imgs/TBBVizionsProducts/Women/bad.png"
   import fashion from "../../lib/imgs/TBBVizionsProducts/women/fashion.png"
   import smile from "../../lib/imgs/TBBVizionsProducts/women/smile.png"
-  import terry from "../../lib/imgs/TBBVizionsProducts/Commissions/terry visualizer.png"
-	import PricingNav from "../../lib/components/PricingNav.svelte";
+  import terry from "../../lib/imgs/TBBVizionsProducts/Commissions/terry_visualizer.png"
+	import PricingNav from "../../lib/components/Pricing_Nav.svelte";
 </script>
-
-<PricingNav name="TBBV"/>
 <div class="galery">
   <div class="smile">
-    <img src={smile} alt="Smile Portrait">
     <div class="content">
+      <img src={smile} alt="Smile Portrait">
       <h1>Just SMiLE</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero similique eius odio!</p>
     </div>    
@@ -43,15 +41,16 @@
 
 <style>
   .galery{
+    display: grid;
+    grid-template-rows: repeat(auto, 1fr);
     padding: 0rem 2rem;
-    background-color: aquamarine;
+    background-color: white;
+    max-width: 60px;
   }
   
   .galery img{
-    max-width: 600px;
-    max-height: 600px;
-    height: auto;
-    width: auto;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
   }
 
@@ -62,13 +61,13 @@
   }
 
   .smile p{
-    height: auto;
-    width: auto;
-    text-align: center;
-    margin: auto;
+   position: absolute;
+   top: 0;
+   text-align: center;
   }
 
   .smile h1{
+    position: absolute;
     height: auto;
     width: auto;
     text-align: center;

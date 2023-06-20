@@ -1,6 +1,6 @@
 <script>
   import "../styles/app.css"
-  import create from "$lib/imgs/TBBVizionsProducts/Other/Creative Vizion.png"
+  import create from "$lib/imgs/TBBVizionsProducts/Other/creative_vizions.png"
 	import Navbar from "$lib/components/Navbar.svelte";
 	import Hero from "$lib/components/Hero.svelte";
 </script>
@@ -12,3 +12,7 @@ explore the generic use of photography and videography but through animation and
 Furthermore, my goal for the future is to expand my knowledge on animation and start
 producing short films, then eventually full episodes using dynamic perspective and camera
 movement." img= {create} alt_txt = "T B B Visions" />
+
+<style>
+
+</style>

@@ -1,74 +1,59 @@
 <script>
-  export let text, p, img, alt_txt;
-  import city from "../imgs/TBBVizionsProducts/Commissions/erikcity.png"
-  import beast from "../imgs/TBBVizionsProducts/Commissions/erikvsthebeast.png"
-  import end from "../imgs/TBBVizionsProducts/Commissions/erk end is near.png"
-  import flife from "../imgs/TBBVizionsProducts/Commissions/flife.png"
-  import gio from "../imgs/TBBVizionsProducts/Commissions/gio.png"
-  import joy from "../imgs/TBBVizionsProducts/Commissions/joylb.png"
-  import kbcom from "../imgs/TBBVizionsProducts/Commissions/kb com cover.png"
-  import mob from "../imgs/TBBVizionsProducts/Commissions/kbmob.png"
-  import jedi from "../imgs/TBBVizionsProducts/Commissions/kb cover jedi.png"
-  import amends from "../imgs/TBBVizionsProducts/Commissions/kb no amends.png"
-  import ken from "../imgs/TBBVizionsProducts/Commissions/kenny2.png"
-  import pitty from "../imgs/TBBVizionsProducts/Commissions/pitbull logo.png"
-  import ryan from "../imgs/TBBVizionsProducts/Commissions/ryan bp.png"
-  import terry from "../imgs/TBBVizionsProducts/Commissions/terry visualizer.png"
-  import wrwf from "../imgs/TBBVizionsProducts/Commissions/wrwf erik holgs.png"
-  import car from "../imgs/TBBVizionsProducts/other/car.png"
-  import cash from "../imgs/TBBVizionsProducts/other/cash in bed 1.png"
-  import cool from "../imgs/TBBVizionsProducts/other/cool.png"
-  import fight from "../imgs/TBBVizionsProducts/other/fight scene 1.png"
-  import good from "../imgs/TBBVizionsProducts/other/good and evil.png"
-  import griz from "../imgs/TBBVizionsProducts/other/griz.png"
-  import heartless from "../imgs/TBBVizionsProducts/other/heartless.png"
-  import lucid from "../imgs/TBBVizionsProducts/other/lucid.png"
-  import thundershock from "../imgs/TBBVizionsProducts/other/thundershock.png"
-  import walk from "../imgs/TBBVizionsProducts/other/walk with purpose.png"
-  import you from "../imgs/TBBVizionsProducts/other/You!.png"
-  import bad from "../imgs/TBBVizionsProducts/women/bad.png"
-  import phone from "../imgs/TBBVizionsProducts/women/cash phone.png"
-  import mace from "../imgs/TBBVizionsProducts/women/chain mace.png"
-  import cutie from "../imgs/TBBVizionsProducts/women/cutie 1.png"
-  import fashion from "../imgs/TBBVizionsProducts/women/fashion.png"
-  import beam from "../imgs/TBBVizionsProducts/women/high beam viz.png"
-  import lolli from "../imgs/TBBVizionsProducts/women/lollipop.png"
-  import jane from "../imgs/TBBVizionsProducts/women/mary jane blue.png"
-  import pink from "../imgs/TBBVizionsProducts/women/pink.png"
-  import practice from "../imgs/TBBVizionsProducts/women/practice 4.png"
-  import skate from "../imgs/TBBVizionsProducts/women/skate.png"
-  import smile from "../imgs/TBBVizionsProducts/women/smile.png"
-  import step from "../imgs/TBBVizionsProducts/women/step.png"
-  import terror from "../imgs/TBBVizionsProducts/women/terror.png"
-  import beach from "../imgs/TBBVizionsProducts/women/workout beach.png"
-  import vizions from "../imgs/TBBVizionsProducts/Self/Vizionsdrawing.png"
-  import create from "../imgs/TBBVizionsProducts/Other/Creative Vizion.png"
+  export let text, img, alt_txt;
 </script>
 
 <div class="hero">
-  <div class="info">
-    <div>
-      <h1 class="textgradient">{text}</h1>
-      <p>{p}</p>
-    </div>
+  <div class="layout">
+    <h1 class="textgradient">{text}</h1>
+      <div class="grid">
+        <div class="container">
+          <div class="title">
+            <h2>Terms of Service</h2>
+          </div>
+          <div class="bar">
+            <div class="content">
+              <ul>
+                <li><p>Initial payment: Pay starting fee is 50% of the commission price.</p></li>
+                <li><p>Commercial use: Commercial use fee is twice the price of the commission.</p></li>
+                <li><p>Payment methods: Payment is accepted through Zelle or Apple Pay.</p></li>
+                <li><p>Refunds: No refunds are available.</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <ul>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nobis?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, numquam!</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptate!</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt officia in quibusdam id nam?</p>
-    </ul>
+        <div class="container">
+          <div class="title">
+            <h2>Pricing</h2>
+          </div>
+          <div class="bar">
+            <div class="content">
+              <ul>
+                <li><p>Initial payment: Pay starting fee is 50% of the commission price.</p></li>
+                <li><p>Commercial use: Commercial use fee is twice the price of the commission.</p></li>
+                <li><p>Payment methods: Payment is accepted through Zelle or Apple Pay.</p></li>
+                <li><p>Refunds: No refunds are available.</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="socials">
+        <i class="fi fi-brands-instagram"></i>
+      </div>
   </div>
 
-  <img src={img} alt={alt_txt}>  
+  <img src={img} alt={alt_txt}>
 </div>
 
 <style>
+
   .hero{
+    background-color: #210203;
     height: 100vh;
     padding: 0px 0px 0px 1rem;
     display: flex;
-    background-color:#AD4250;
     justify-content: space-between;
 }
 
@@ -85,19 +70,45 @@
   font-size: 10vh;
 }
 
-.hero p{
-  font-size: 2.5vh;
-  color: #842006;
+.hero ul{
+ margin-left: .75em;
+}
+
+.hero li{
+  list-style-position: inside;
+  text-align: left;
+  color: black;
+  text-decoration: underline;
+}
+
+.grid{
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container{
+  box-shadow: -15px 15px 15px black;
+  background-color: #D3B99F;
+}
+
+.content{
+  background-color: #D3B99F;
+  padding-bottom: 10px;
 }
 
 .hero img{
+  z-index: 0;
+  filter: drop-shadow(-30px 15px 10px black);
   max-width: 1300px;
   max-height: 1500px;
-  width: auto;
-  height: auto;
   object-fit: cover;
 }
 
+.bar{
+  background-color: #A87A4D;
+  padding-top: 5px;
+}
 @font-face {
   font-family: "drippy";
   src: url(bacon.woff);

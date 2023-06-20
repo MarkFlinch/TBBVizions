@@ -1,11 +1,11 @@
-:root{
-  --color: color; 
-}
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ .hero{
+  background-color:#132520;
 }
 
 .textgradient {
@@ -13,3 +13,18 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  }
+
+ @font-face {
+  font-family: "drippy";
+  src: url(bacon.woff);
+}
+
+@font-face {
+  font-family: "atalon";
+  src: url(atalon.woff);
+}
+
+a{
+  color: #CFE0C3;
+  background-color: #132520;
+}
