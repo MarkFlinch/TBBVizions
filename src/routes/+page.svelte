@@ -1,6 +1,6 @@
 <script>
   import "../styles/app.css"
-  import create from "$lib/imgs/tbbvizionsproducts/other/creativevizions.png"
+  import create from "$lib/imgs/other/creativevizions.png"
 	import Navbar from "$lib/components/Navbar.svelte";
 	import Hero from "$lib/components/Hero.svelte";
 </script>
