@@ -1,8 +1,8 @@
 <script>
-  import bad from "../../lib/imgs/TBBVizionsProducts/Women/bad.png"
-  import fashion from "../../lib/imgs/TBBVizionsProducts/women/fashion.png"
-  import smile from "../../lib/imgs/TBBVizionsProducts/women/smile.png"
-  import terry from "../../lib/imgs/TBBVizionsProducts/Commissions/terry_visualizer.png"
+  import bad from "../../lib/imgs/tbbvizionsproducts/women/bad.png"
+  import fashion from "../../lib/imgs/tbbvizionsproducts/women/fashion.png"
+  import smile from "../../lib/imgs/tbbvizionsproducts/women/smile.png"
+  import terry from "../../lib/imgs/tbbvizionsproducts/commissions/terry_visualizer.png"
 	import PricingNav from "../../lib/components/Pricing_Nav.svelte";
 </script>
 <div class="galery">
