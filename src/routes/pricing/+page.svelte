@@ -1,5 +1,5 @@
 <script>
-  import create from "$lib/imgs/tbbvizionsproducts/other/creative_vizion.png"
+  import create from "$lib/imgs/tbbvizionsproducts/other/creativevizion.png"
 	import Navbar from "$lib/components/Navbar.svelte";
 	import Hero from "$lib/components/Hero.svelte";
   import phone from "$lib/imgs/tbbvizionsproducts/women/cash_phone.png"
